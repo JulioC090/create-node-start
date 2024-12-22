@@ -1,11 +1,14 @@
 {
-  "name": "node-boilerplate",
+  "name": "create-node-start",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "bin": {
     "cns": "./dist/index.js"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "start": "node ./dist/",
     "dev": "tsx watch ./cli/index.ts",
