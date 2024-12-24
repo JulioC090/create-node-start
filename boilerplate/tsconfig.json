@@ -2,18 +2,18 @@
   "compilerOptions": {
     "target": "es2022",
     "module": "commonjs",
-    "baseUrl": "cli",
-    "rootDirs": ["cli", "tests"],
+    "baseUrl": "src",
+    "rootDirs": ["src"],
     "outDir": "dist",
     "paths": {
-      "@/tests/*": ["../tests/*"],
-      "@/*": ["*"]
+      "@/*": ["*"],
+      "@main/*": ["@main/*"],
     },
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true
   },
-  "include": ["cli", "tests"],
+  "include": ["src"],
   "exclude": []
 }
